@@ -11,24 +11,31 @@
       -o-background-size: cover;
       background-size: cover;
     }
+    body {
+      margin: 0;
+    }
     .container {
       height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
+    }
+    .box {
       box-shadow: 0 3px 5px rgba(0,0,0,.35);
     }
     </style>
   </head>
   <body>
     <div class="container">
-      <iframe
-          frameborder="0"
-          allow="microphone;"
-          width="350"
-          height="430"
-          src="https://console.dialogflow.com/api-client/demo/embedded/1d04a38e-7781-49dd-9343-ec3d8e0c26b3">
-      </iframe>
+      <div class="box">
+        <iframe
+            frameborder="0"
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/1d04a38e-7781-49dd-9343-ec3d8e0c26b3">
+        </iframe>
+      </div>
     </div>
   </body>
 </html>
