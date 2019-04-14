@@ -11,15 +11,19 @@
       -o-background-size: cover;
       background-size: cover;
     }
-    .parent {
+    .container {
+      height: 100vh;
       display: flex;
       align-items: center;
+      justify-content: center;
+      box-shadow: 0 3px 5px rgba(0,0,0,.35);
     }
     </style>
   </head>
   <body>
-    <div class="parent">
+    <div class="container">
       <iframe
+          frameborder="0"
           allow="microphone;"
           width="350"
           height="430"
